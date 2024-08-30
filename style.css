@@ -1,0 +1,57 @@
+body{
+    color:white;
+    background: black;
+    margin: 0px;  
+    font-family: "Gugi", sans-serif; 
+}
+
+
+
+header{
+    
+    border-bottom: solid 3px goldenrod;
+padding: 20px;
+font-size: 34px;
+color: gold;
+}
+
+
+.chamada   {
+               background: rgb(59,49,25);
+               padding-bottom: 15px;
+               padding-top: 15px;
+               display: flex;
+               justify-content: center;
+
+}
+
+.chamada-texto {
+margin-right: 5%;
+}
+
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px; 
+}
+
+.categoria {
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+
+.categoria-videos img  {
+  opacity: 0.5;
+  height:200px ;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid goldenrod;
+}
+
+.categoria h2 {
+    color: gold;
+}
